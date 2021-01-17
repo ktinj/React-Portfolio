@@ -1,10 +1,9 @@
 import React from "react";
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
-import Header from "./components/Header";
+import Header from "../components/Header";
 
 function App() {
   return (

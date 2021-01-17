@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "./Nav.css";
 
 function Header() {
 
@@ -9,21 +11,15 @@ function Header() {
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-            <li class="nav-item">
-            <a class="nav-link" href="https://github.com/ktinj" target="_blank"><h>GITHUB</h></a>
-            <li class="nav-item">
-            <a class="nav-link" href="https://www.linkedin.com/in/kristinjacobsen1/" target="_blank"><h>LINKEDIN</h></a>
-            <li class="nav-item">
-            <a class="nav-link" href="contact.html"><h>CONTACT</h></a>
-            <li class="nav-item">
-            <a class="nav-link" href="portfolio.html"><h>PORTFOLIO</h></a>
+            <li class="nav-link"> <Link to="/Contact">CONTACT</Link>
             </li>
+            <li class="nav-link"><Link to="/Portfolio">Portfolio</Link>
             </li>
-            </li>
-            </li>
+            <li class="nav-link"><Link to="/Home">Home</Link>
+            </li>   
         </ul>
-        </div>
-    </nav>
+    </div>
+</nav>
 
 
 }

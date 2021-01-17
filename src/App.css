@@ -77,7 +77,3 @@ p {
   text-decoration: none;
   cursor: pointer;
 }
-/* responsive media screen */
-@media screen and (max-width:800px) {
-  h1, .main, a {
-  width:50%;
